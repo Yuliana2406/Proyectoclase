@@ -116,16 +116,16 @@ var array_num=[1, 2, 3, 4,  5, 6, 7, 8, 9];
 
 var array_multi=[
 {name: "paula ", age: 18, color: "verde"},
-{name: "eilyn ", age: 4, color: "azul"},
-{name: "viviana  ", age: 37, color: "rojo"},
-{name: "santiago", age: 20, color: "amarillo"}
+{name: "eilyn ", age: 5, color: "azul"},
+{name: "santiago  ", age: 20, color: "rojo"},
+{name: "jose", age: 10, color: "amarillo"}
 
 ];
 
 
 var json_ejem={
   name: "Yuliana",
-  lastName: "velasquez",
+  lastName: "Velasquez",
   phone: "3209428064",
   email: "yyvelasquezg@ufpso.edu.co"
 
@@ -212,7 +212,7 @@ function action(){
     document.getElementById("last_name").value="";
     document.getElementById("result").innerText="";
   }
-  var nombre_form="Merly Tarazona Sepulveda";
+  var nombre_form="Yuliana Velásquez Gómez";
 
   function search(){
   let nombre_buscar = document.getElementById("name_search").value;
