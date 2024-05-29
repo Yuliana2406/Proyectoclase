@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendiendo Js</title>
+</head>
+
+<body onload="load_page()">
+    <div>
+        <input type="text" id="hour_system" disabled>
+        <input type="text" id="name_search" disabled>
+        <button onclick="search()">Buscar</button>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="route">
+            <label for="name"> Name</label>
+            <input type="text" id="name" placeholder="ingrese su nombre ">
+        </div>
+        <div class="route">
+            <label for="last_name"> last_Name</label>
+            <input type="text" id="last_name" autocomplete="off" placeholder="ingrese su apellido">
+        </div>
+        <div >
+            <label for="pass_one">ingrese contraseña</label>
+            <input type="password" id="pass_one" placeholder="ingrese su contraseña ">
+        </div>
+        <div >
+            <label for="pass_two">repita  contraseña</label>
+            <input type="password" id="pass_two" placeholder="repita  su contraseña ">
+        </div>
+        <div class="button" id="send" onclick="send_form()">
+            <button> enviar </button>
+        </div>
+        <div  id="print"></div>
+       
+    </div>
+
+    <br><br>
+    <div>
+        <div id="text"></div>
+        <div><button ondblclick="action()">Calcular</button></div>
+        <div id="result"></div>
+
+        <div>
+            <button onclick="agregar ()">AGREGAR</button>
+            <input type="text" id="num" size="1" placeholder="num">
+            <button onclick="eliminar()">ELIMINAR ULT</button>
+            <button onclick="agregar_prim()">AGREGAR PRIM</button>
+            <button onclick="eliminar_prim()">ELIMINAR PRIM</button>
+            <button onclick="reves()">IMP REVES</button>
+            <button onclick="limpiar()">LIMPIAR</button>
+        </div>
+        <div><input type="text " id="impresion" disabled></div>
+    </div>
+    <!-- <script>
+        alert("hola mundo") 
+    </script> -->
+    <script src="../JS/functions.js"></script>
+    <script src="../JS/sweetalert2@11.js"></script>
+    
+</body>
+</html>
