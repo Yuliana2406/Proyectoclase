@@ -9,6 +9,8 @@ body{
 }
 .container{
     width: 95%;
+    display: flex;
+    flex-direction: column;
     border: 5px solid #000;
     border-radius: 20px;
     padding: 10px;
@@ -32,6 +34,7 @@ body{
     margin: 5px;
     text-align: center;
 }
+
 
 #one{
     background-color: #adff2f;
@@ -59,8 +62,6 @@ body{
 
 @media screen and (max-width:800px) {
     body{
-        background-color: rgb(42, 0, 229);
-    }
     .element{
         border: 5px solid rgb(255, 38, 85);
     }
